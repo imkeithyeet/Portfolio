@@ -1,8 +1,9 @@
 import Main from '../../components/Main';
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Navbar from '../../components/Navbar'
 import About from '../../components/About'
+import Skills from 'components/Skills';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar/>
       <Main />
       <About/>
+      <Skills/>
     </>
   )
 }

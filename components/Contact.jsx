@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 import ContactImg from '../public/assets/contact.jpg';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+
 
 
 const Contact = () => {
@@ -21,13 +25,32 @@ const Contact = () => {
                     alt="/"
                     />
                 </div>
-
+                <div>
+                    <h2 className='py-2'>Name Here</h2>
+                    <p>Front End Developer</p>
+                    <p className='py-4'>I am available to answers questions about my work or myself and for a full-time position. Contact me and let&apos;s talk</p>
+                </div>
+            </div>
+            <div>
+                <p className='uppercase pt-8'>Connect With Me</p>
+                <div className='flex items-center justify-between py-4'>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <FaLinkedinIn/>
+                        </div>
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <FaGithub/>
+                        </div>
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <AiOutlineMail/>
+                        </div>
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <BsFillPersonLinesFill/>
+                        </div>
+                </div>
             </div>
 
         </div>
-
         {/* right */}
-
             </div>
             </div>
         </div>

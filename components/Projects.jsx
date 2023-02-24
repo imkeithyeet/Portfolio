@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import usDatingImg from '../public/assets/projects/usDating.jpg'
-import BirdviewImg from '../public/assets/projects/Birdview.jpg'
+import BirdViewImg from '../public/assets/projects/Birdview.jpg'
 
 import ProjectItem from './ProjectItem';
 
@@ -20,7 +20,7 @@ const Projects = () => {
                   />
                    <ProjectItem 
                   title='BirdView House Listing'  
-                  backgroundImg={BirdviewImg}
+                  backgroundImg={BirdViewImg}
                   projectUrl="/Us"
                   />
                 </div>

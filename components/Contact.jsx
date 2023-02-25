@@ -3,7 +3,7 @@ import React from 'react';
 import ContactImg from '../public/assets/contact.jpg';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsMedium } from 'react-icons/bs';
 import Link from 'next/link';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
@@ -45,7 +45,7 @@ const Contact = () => {
                             <AiOutlineMail/>
                         </div>
                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <BsFillPersonLinesFill/>
+                            <BsMedium/>
                         </div>
                 </div>
             </div>

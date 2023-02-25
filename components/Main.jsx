@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
+import { AiOutlineMail} from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 
 const Main = () => {
     return (
-        <div className="w-full h-screen text-center">
+        <div id="home" className="w-full h-screen text-center">
             <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
                 <div>
                 <p className="uppercase txt-sm tracking-widest text-gray-600">Feel amazing while using it</p>

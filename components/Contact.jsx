@@ -30,8 +30,7 @@ const Contact = () => {
                     <p>Front End Developer</p>
                     <p className='py-4'>I am available to answers questions about my work or myself and for a full-time position. Contact me and let&apos;s talk</p>
                 </div>
-            </div>
-            <div>
+                <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -48,9 +47,15 @@ const Contact = () => {
                         </div>
                 </div>
             </div>
+            </div>
 
         </div>
         {/* right */}
+        <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+            <div className='p-4'>
+        <form></form>
+            </div>
+        </div>
             </div>
             </div>
         </div>

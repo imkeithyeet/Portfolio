@@ -36,22 +36,22 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <a href="https://www.linkedin.com/in/keith-ma/">
+                <a href="https://www.linkedin.com/in/keith-ma/" target="_blank" rel="noopener noreferrer">
                          <FaLinkedinIn/>
                          </a>
                         </div>
                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <a href="https://github.com/imkeithyeet">
+                        <a href="https://github.com/imkeithyeet" target="_blank" rel="noopener noreferrer">
                             <FaGithub/>
                             </a>
                         </div>
                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <a href="mailto:keithchezzy@gmail.com">
+                        <a href="mailto:keithchezzy@gmail.com" target="_blank" rel="noopener noreferrer">
                          <AiOutlineMail/>
                             </a>
                         </div>
                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <a href="https://medium.com/@keithspexma">
+                        <a href="https://medium.com/@keithspexma" target="_blank" rel="noopener noreferrer">
                             <BsMedium/>
                             </a>
                         </div>

@@ -17,7 +17,7 @@ const About = () => {
                    </p>
                    </p>
                    <p className='py-2 text-gray-600'>I have developed this website using Next.Js and Tailwind CSS.</p>
-                   <p className='py-2 text-gray-600 underline '>Check out my latest projects</p>
+                   <a href="https://docs.google.com/document/d/1oQ9QcBv6p2WlbZ-N7iURDh-X24jDWjrt9o9lB2bhjdI/edit" target="_blank" rel="noopener noreferrer" className='py-2 text-gray-600 underline '>Check out my latest projects</a>
 
                 </div>
                 <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

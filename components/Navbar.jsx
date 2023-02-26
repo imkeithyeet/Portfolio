@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn,FaGithub} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {BsMedium} from 'react-icons/bs'
 
 const Navbar = () => {
     const [nav, setNav] =useState(false)
@@ -63,7 +63,9 @@ const Navbar = () => {
                     >
                     <div>
                         <div className="flex w-full items-center justify-between">
+                            <Link href="/">
                             <Image src='/../public/assets/navLogo.png' width="250" height="100" alt='/'/>
+                            </Link>
                             <div onClick={handleNav}className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                                 <AiOutlineClose/>
                             </div>
@@ -75,35 +77,43 @@ const Navbar = () => {
                     <div className='py-4 flex flex-col'>
                         <ul className="uppercase">
                             <Link href="/">
-                            <li className="py-4 text-sm">Home</li>
+                            <li onClick={()=> setNav(false)} className="py-4 text-sm">Home</li>
                             </Link>
-                            <Link href="/">
-                            <li className="py-4 text-sm">About</li>
+                            <Link href="/#about">
+                            <li onClick={()=> setNav(false)} className="py-4 text-sm">About</li>
                             </Link>
-                            <Link href="/">
-                            <li className="py-4 text-sm">Skills</li>
+                            <Link href="/#skills">
+                            <li onClick={()=> setNav(false)} className="py-4 text-sm">Skills</li>
                             </Link>
-                            <Link href="/">
-                            <li className="py-4 text-sm">Projects</li>
+                            <Link href="/#projects">
+                            <li onClick={()=> setNav(false)} className="py-4 text-sm">Projects</li>
                             </Link>
-                            <Link href="/">
-                            <li className="py-4 text-sm">Contact</li>
+                            <Link href="/#contact">
+                            <li onClick={()=> setNav(false)} className="py-4 text-sm">Contact</li>
                             </Link>
                         </ul>
                         <div className="pt-40">
                             <p className="uppercase tracking-widest text-[#5651e5]">Let&#39;s Connect</p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <FaLinkedinIn />
+                                <a href="https://www.linkedin.com/in/keith-ma/" target="_blank" rel="noopener noreferrer">
+                                 <FaLinkedinIn/>
+                                 </a>
                                 </div>
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <FaGithub />
+                                <a href="https://github.com/imkeithyeet" target="_blank" rel="noopener noreferrer">
+                                 <FaGithub/>
+                                </a>
                                 </div>
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <AiOutlineMail />
+                                <a href="mailto:keithchezzy@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <AiOutlineMail/>
+                                 </a>
                                 </div>
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <BsFillPersonLinesFill />
+                                <a href="https://medium.com/@keithspexma" target="_blank" rel="noopener noreferrer">
+                                 <BsMedium/>
+                                </a>
                                 </div>
                             </div>
                         </div>

@@ -12,7 +12,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/html5.png" 
+                        src="/assets/skills/html5.png" 
                         width="64" 
                         height="64" 
                         alt="/"
@@ -27,7 +27,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/css.png" 
+                        src="/assets/skills/css.png" 
                         width="64" 
                         height="64" 
                         alt="/"
@@ -42,7 +42,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/javascript.png" 
+                        src="/assets/skills/javascript.png" 
                         width="64" 
                         height="64" 
                         alt="/"
@@ -58,7 +58,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/React_Logo.png" 
+                        src="/assets/skills/React_Logo.png" 
                         width="200" 
                         height="60" 
                         alt="/"
@@ -73,7 +73,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/Ruby_on_rails-Logo.png" 
+                        src="/assets/skills/Ruby_on_rails-Logo.png" 
                         width="200" 
                         height="64" 
                         alt="/"
@@ -88,7 +88,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/PostgreSQL-Logo.png" 
+                        src="/assets/skills/PostgreSQL-Logo.png" 
                         width="200" 
                         height="64" 
                         alt="/"
@@ -103,7 +103,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/Adobe_Illustrator-Logo.png" 
+                        src="/assets/skills/Adobe_Illustrator-Logo.png" 
                         width="200" 
                         height="64" 
                         alt="/"
@@ -118,7 +118,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/Adobe_InDesign-Logo.png" 
+                        src="/assets/skills/Adobe_InDesign-Logo.png" 
                         width="200" 
                         height="64" 
                         alt="/"
@@ -133,7 +133,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/../public/assets/skills/Adobe_XD-Logo.png" 
+                        src="/assets/skills/Adobe_XD-Logo.png" 
                         width="200" 
                         height="64" 
                         alt="/"

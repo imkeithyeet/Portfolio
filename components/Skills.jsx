@@ -73,7 +73,7 @@ const Skills = () => {
                 <div className='grid grid-cols-2 justify-center items-center'>
                     <div className="m-auto">
                         <Image 
-                        src="/assets/skills/Ruby_on_rails-Logo.png" 
+                        src="/assets/skills/Ruby_on_Rails-Logo.png" 
                         width="200" 
                         height="64" 
                         alt="/"

@@ -1,6 +1,6 @@
 import React from 'react';
 import usDatingImg from '../public/assets/projects/usDating.jpg'
-import BirdViewImg from '../public/assets/projects/Birdview.jpg'
+import BirdViewImg from '../public/assets/projects/BirdView.jpg'
 
 import ProjectItem from './ProjectItem';
 

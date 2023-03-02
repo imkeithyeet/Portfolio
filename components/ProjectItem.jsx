@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import React from 'react';
 
 const ProjectItem = ({title,backgroundImg,projectUrl}) => {
@@ -10,9 +10,9 @@ const ProjectItem = ({title,backgroundImg,projectUrl}) => {
                     <div className="hidden group-hover:block absolute top-[-7%] left-[50%] translate-x-[-50%] translate-y-[50%]">
                         <h3 className='text-2xl text-white tracking-wider text-center'>{title}</h3>
                         <p className='pb-4 pt-2 text-white text-center'>React JS With Ruby on Rails</p>
-                        <Link href={projectUrl}>
+                        {/* <Link href={projectUrl}>
                             <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-leg cursor'>More Info</p>
-                        </Link>
+                        </Link> */}
                     </div>
                     </div> 
         </div>

@@ -10,10 +10,12 @@ const About = () => {
                     <p className='uppercase text-xl tracking-widest text-[#4441a3]'>About</p>
                     <h2 className='py-4'>Who I Am</h2>
                     <p className='py-2 text-gray-600'>*Put in the hard work and you will see the results*</p>
-                    <p className='py-2 text-gray-600'>Hello! I&#39;m a full stack developer based in Los Angeles, California, with a passion for creating beautiful and functional websites. With a background in design and specialization in front-end development, I bring a unique perspective to every project I work on. I recently graduated from Flatiron BootCamp as a full stack development student, where I honed my skills in programming, database management, and more.</p>
-                   <p className='py-2 text-gray-600'>As you explore my portfolio, you&#39;ll see examples of my work in front-end development, including projects that showcase my expertise in HTML, CSS, JavaScript, React, and Ruby on Rails. I&#39;m also well-versed in back-end development and have experience with database technologies like MySQL.
+                    <p className='py-2 text-gray-600'>I have always thought of going into the Software Engineering field, knowing I had a passion for and interest in programming and designing things to help change things for the better and benefit the world around me. After earning a BFA in visual art and working in the field, my work felt dull and I  yearned to make the move to something more sustainable and to learn something new.</p>
+                   <p className='py-2 text-gray-600'>And that&#39;s when it happened: the spark of being curious about the tech field and how things function the way they do. Discovering code by playing around with HTML and CSS, I found a new passion that brought me the satisfaction of solving problems, debugging errors, and troubleshooting. 
                    </p>
-                   <p className='py-2 text-gray-600'>  <p className='py-2 text-gray-600'>If you&#39;re interested in learning more about my skills and experience, please don&#39;t hesitate to contact me with any questions. I&#39;d love to hear from you!
+                   <p className='py-2 text-gray-600'>My specialties include quickly learning new skills and programming languages, logical thinking, front end development and design, and understanding concepts in a fast paced environment. So far, I have knowledge in JavaScript, HTML, CSS, React, Adobe PhotoShop, Adobe Illustrator, Adobe InDesign, Adobe XD, and drawing by hand. 
+                   </p>
+                   <p className='py-2 text-gray-600'> <p className='py-2 text-gray-600'>If you&#39;re interested in learning more about my skills and experience, please don&#39;t hesitate to contact me with any questions. I&#39;d love to hear from you!
                    </p>
                    </p>
                    <p className='py-2 text-gray-600'>I have developed this website using Next.JS and Tailwind CSS.</p>

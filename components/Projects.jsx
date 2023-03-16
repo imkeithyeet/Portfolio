@@ -1,6 +1,8 @@
 import React from 'react';
 import usDatingImg from '../public/assets/projects/usDating.jpg'
 import BirdViewImg from '../public/assets/projects/Birdview.jpg'
+import teslaCloneImg from '../public/assets/projects/teslaClone.jpg'
+
 
 import ProjectItem from './ProjectItem';
 
@@ -20,6 +22,12 @@ const Projects = () => {
                   title='BirdView House Listing'  
                   backgroundImg={BirdViewImg}
                   projectUrl="/BirdViewHouseListing"
+                  />
+                    <ProjectItem 
+                  title='Tesla Website Clone'  
+                  backgroundImg={teslaCloneImg}
+                  projectUrl="/TeslaWebsiteClone"
+                  description="Next.JS with TailWind CSS"
                   />
                 </div>
             </div> 

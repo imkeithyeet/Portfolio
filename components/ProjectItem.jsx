@@ -16,15 +16,10 @@ const ProjectItem = ({ title, backgroundImg, projectUrl, description }) => {
           <h3 className="text-2xl text-white tracking-wider text-center">
             {title}
           </h3>
-          <p className="pb-4 pt-2 text-white text-center">
-            React JS With Ruby on Rails
+          <p className="pb-8 pt-10 text-white text-center">
+            {description}
           </p>
         </div>
-        {description && (
-          <div className="hidden description group-hover:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <p className="pb-4 pt-2 text-white text-center">{description}</p>
-          </div>
-        )}
         {/* <Link href={projectUrl}>
             <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-leg cursor'>More Info</p>
           </Link> */}

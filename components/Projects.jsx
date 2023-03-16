@@ -17,11 +17,13 @@ const Projects = () => {
                   title='Us Dating App Website'  
                   backgroundImg={usDatingImg} 
                   projectUrl="/UsDating"
+                  description="React.JS with Ruby on Rails"
                   />
                    <ProjectItem 
                   title='BirdView House Listing'  
                   backgroundImg={BirdViewImg}
                   projectUrl="/BirdViewHouseListing"
+                  description="React.JS with Ruby on Rails"
                   />
                     <ProjectItem 
                   title='Tesla Website Clone'  

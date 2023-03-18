@@ -23,7 +23,7 @@ const About = () => {
 
                 </div>
                 <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300">
-                <Image className="rounded-xl" src="/assets/Profile.jpg" alt="Profile picture" width="400" height="50" />
+                <Image className="rounded-xl" src="/assets/headShot.jpg" alt="Profile picture" width="400" height="50" />
                 </div>
             </div>
         </div>

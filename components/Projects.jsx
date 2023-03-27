@@ -2,6 +2,7 @@ import React from 'react';
 import usDatingImg from '../public/assets/projects/usDating.jpg'
 import BirdViewImg from '../public/assets/projects/Birdview.jpg'
 import teslaCloneImg from '../public/assets/projects/teslaClone.jpg'
+import typeScriptImg from '../public/assets/projects/typeScript.jpg'
 
 
 import ProjectItem from './ProjectItem';
@@ -17,19 +18,25 @@ const Projects = () => {
                   title='Us Dating App Website'  
                   backgroundImg={usDatingImg} 
                   projectUrl="/UsDating"
-                  description="React.JS with Ruby on Rails"
+                  description="React.JS +  Ruby on Rails"
                   />
                    <ProjectItem 
                   title='BirdView House Listing'  
                   backgroundImg={BirdViewImg}
                   projectUrl="/BirdViewHouseListing"
-                  description="React.JS with Ruby on Rails"
+                  description="React.JS + Ruby on Rails"
                   />
                     <ProjectItem 
                   title='Tesla Website Clone'  
                   backgroundImg={teslaCloneImg}
                   projectUrl="/TeslaWebsiteClone"
-                  description="Next.JS with TailWind CSS"
+                  description="Next.JS + TailWind CSS"
+                  />
+                  <ProjectItem 
+                  title='LearnToCode'  
+                  backgroundImg={typeScriptImg}
+                  projectUrl="/TeslaWebsiteClone"
+                  description="Next.JS + TypeScript + NextUI"
                   />
                 </div>
             </div> 
